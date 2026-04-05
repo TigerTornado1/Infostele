@@ -7,7 +7,7 @@
  * Enthält: Westerwaldbus, ÖPNV, VRM, ADAC Pendlernetz, Mitfahrerbänke
  */
 
-const DATA_MOBILITAET_VERKEHR = {id:'07', titel:'Mobilit�t & Verkehr', subs:[
+var DATA_MOBILITAET_VERKEHR = {id:'07', titel:'Mobilit�t & Verkehr', subs:[
     {name:'Westerwaldbus (Kreis AK)', url:'https://www.westerwaldbus.de/fahrplaene'},
     {name:'\u00d6PNV Westerwaldkreis', url:'https://www.westerwaldkreis.de/oepnv.html#myIframe'},
     {name:'VRM Fahrplanauskunft', url:'https://www.vrminfo.de/fahrplanauskunft/'},

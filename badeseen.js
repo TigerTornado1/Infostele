@@ -12,7 +12,7 @@
  * an die feratel DSI-Schnittstelle ersetzt.
  */
 
-const DATA_BADESEEN = {
+var DATA_BADESEEN = {
   ak: [
     // Freizeitb�der & Hallenb�der
     {t:'Hallenbad Altenkirchen', typ:'Hallenbad/Freizeitbad', u:'https://www.vg-altenkirchen-flammersfeld.de/hallenbad'},

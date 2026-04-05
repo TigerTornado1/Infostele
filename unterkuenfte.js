@@ -10,7 +10,7 @@
  * Darstellung als filterbare Liste nach Ort/Kategorie.
  */
 
-const DATA_UNTERKUENFTE = [
+var DATA_UNTERKUENFTE = [
 {id:1,name:"Haus Fernblick",town:"Bad Marienberg",categories:"Ferienwohnung / Appartement",img:"https://resc.deskline.net/images/RPT/1/b0892285-fe36-4d77-bd6b-c70ee8692990/54/Haus_Fernblick.jpg",slug:"haus-fernblick"},
 {id:2,name:"Camping Park Weiherhof *****",town:"Seck",categories:"Campingplatz,Ferienwohnung / Appartement",img:"https://resc.deskline.net/images/RPT/1/a7c3de75-5885-400e-9fa6-7cb09087ee2c/54/Stellplatz_am_See.jpg",slug:"camping-park-weiherhof------"},
 {id:3,name:"Ferienhaus Fohlenwiese",town:"Seck",categories:"Ferienhaus ,Ferienwohnung / Appartement",img:"https://resc.deskline.net/images/RPT/1/7a9897bc-e631-43b4-9591-2e0d6b8b4728/54/Au%c3%9fen_2.jpg",slug:"ferienhaus-fohlenwiese"},
