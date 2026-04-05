@@ -12,7 +12,7 @@
  * an die feratel DSI-Schnittstelle ersetzt.
  */
 
-const DATA_WANDERN_WESTERWALDSTEIG = [
+var DATA_WANDERN_WESTERWALDSTEIG = [
 
 // ═══════════════════════════════════════════════════════════
 // ETAPPE 1 – Herborn – Breitscheid  [COMPLETE]

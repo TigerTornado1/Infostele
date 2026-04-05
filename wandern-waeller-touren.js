@@ -8,7 +8,7 @@
  * 16 Touren, exakt wie auf westerwald.info gelistet.
  */
 
-const DATA_WANDERN_WAELLER_TOUREN = [
+var DATA_WANDERN_WAELLER_TOUREN = [
 
 // ═══ 1. Stöffel-Route ═══
 {id:1, _status:"complete",

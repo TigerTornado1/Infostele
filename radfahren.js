@@ -27,7 +27,7 @@
  * 36 Rundradwege, exakt wie auf westerwald.info gelistet.
  */
 
-const DATA_RADFAHREN_RUNDRADWEGE = [
+var DATA_RADFAHREN_RUNDRADWEGE = [
 
 {id:1, _status:"stats_complete", title:"Altenkirchener Radrundweg", subtitle:"Tallandschaften um Altenkirchen", difficulty:"schwer", km:"42", gpxUrl:"https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=56633653&project=oar-rlp", stats:{duration:"3,1 h", ascent:"435 hm", descent:"435 hm"}},
 
@@ -114,7 +114,7 @@ const DATA_RADFAHREN_RUNDRADWEGE = [
  * 16 Streckenradwege, exakt wie auf westerwald.info gelistet.
  */
 
-const DATA_RADFAHREN_STRECKENRADWEGE = [
+var DATA_RADFAHREN_STRECKENRADWEGE = [
 
 {id:1, _status:"stats_complete", title:"Wied-Radweg", subtitle:"Durch herrliche Flusst\u00e4ler radeln", difficulty:"mittel", km:"98", gpxUrl:"https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=7751131&project=oar-rlp", stats:{duration:"7,5 h", ascent:"237 hm", descent:"619 hm"}},
 
@@ -158,7 +158,7 @@ const DATA_RADFAHREN_STRECKENRADWEGE = [
  * Quelle: westerwald.info/gravelbike/
  * Stand: April 2026 – 9 Touren
  */
-const DATA_RADFAHREN_GRAVELBIKE = [
+var DATA_RADFAHREN_GRAVELBIKE = [
 {id:1, _status:"stats_complete", title:"Hachenburger Westerwald", subtitle:"Abwechslungsreiche Rundtour", difficulty:"schwer", km:"75", gpxUrl:"https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=14417554&project=oar-rlp", stats:{duration:"5,9 h", ascent:"994 hm", descent:"994 hm"}},
 {id:2, _status:"stats_complete", title:"Bad Marienberg-Tour", subtitle:"Abenteuer f\u00fcr Fortgeschrittene", difficulty:"schwer", km:"45", gpxUrl:"https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=14330701&project=oar-rlp", stats:{duration:"3,4 h", ascent:"545 hm", descent:"545 hm"}},
 {id:3, _status:"stats_complete", title:"Kannenb\u00e4ckerland-Route", subtitle:"Abwechslung zwischen T\u00f6pfereien, Westerw\u00e4lder Dom und Erlenhofsee", difficulty:"schwer", km:"48", gpxUrl:"https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=37926269&project=oar-rlp", stats:{duration:"3,8 h", ascent:"528 hm", descent:"528 hm"}},
@@ -179,7 +179,7 @@ const DATA_RADFAHREN_GRAVELBIKE = [
  * Stand: April 2026 – 9 Strecken
  * Hinweis: Touren 6-9 sind identisch mit Gravelbike (Gravel & eMTB)
  */
-const DATA_RADFAHREN_MOUNTAINBIKE = [
+var DATA_RADFAHREN_MOUNTAINBIKE = [
 {id:1, _status:"stats_complete", title:"Hauptroute (A)", subtitle:"Sportliche MTB-Tour mit kleineren sowie drei gro\u00dfen Anstiegen", difficulty:"schwer", km:"46", gpxUrl:"https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=3234381&project=oar-rlp", stats:{duration:"3,0 h", ascent:"1006 hm", descent:"1006 hm"}},
 {id:2, _status:"stats_complete", title:"F\u00fcsseberg-Runde (B)", subtitle:"Auf der Einsteigertour durch den N\u00f6rdlichen Westerwald", difficulty:"leicht", km:"14", gpxUrl:"https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=3234451&project=oar-rlp", stats:{duration:"1,0 h", ascent:"341 hm", descent:"341 hm"}},
 {id:3, _status:"stats_complete", title:"Bergmannspfad (C)", subtitle:"Reizvolle Tour mit rund 100 Metern H\u00f6henunterschied", difficulty:"leicht", km:"8", gpxUrl:"https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=3234466&project=oar-rlp", stats:{duration:"0,7 h", ascent:"105 hm", descent:"105 hm"}},
@@ -199,7 +199,7 @@ const DATA_RADFAHREN_MOUNTAINBIKE = [
  * Quelle: westerwald.info/rennrad/
  * Stand: April 2026 – 5 Touren
  */
-const DATA_RADFAHREN_RENNRAD = [
+var DATA_RADFAHREN_RENNRAD = [
 {id:1, _status:"stats_complete", title:"Westerw\u00e4lder Express-Runde", subtitle:null, difficulty:"leicht", km:"62", gpxUrl:"https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=18441102&project=oar-rlp", stats:{duration:"3,9 h", ascent:"784 hm", descent:"803 hm"}},
 {id:2, _status:"stats_complete", title:"Westerw\u00e4lder Seen-Runde", subtitle:null, difficulty:"mittel", km:"99", gpxUrl:"https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=18441144&project=oar-rlp", stats:{duration:"6,2 h", ascent:"1233 hm", descent:"1239 hm"}},
 {id:3, _status:"stats_complete", title:"Westerw\u00e4lder Klassiker-Runde", subtitle:null, difficulty:"schwer", km:"155", gpxUrl:"https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=18441150&project=oar-rlp", stats:{duration:"9,5 h", ascent:"2189 hm", descent:"2174 hm"}},
@@ -215,7 +215,7 @@ const DATA_RADFAHREN_RENNRAD = [
  * Quelle: westerwald.info/e-bike/
  * Stand: April 2026 – 23 Infrastrukturen
  */
-const DATA_EBIKE_INFRASTRUKTUR = [
+var DATA_EBIKE_INFRASTRUKTUR = [
 {id:1, type:"Fahrradverleih", name:"E-Bike Verleih: Zweirad Schnell", ort:"Hachenburg", address:"Koblenzer Stra\u00dfe 38a, 57627 Hachenburg"},
 {id:2, type:"E-Bike/Pedelec Akku-Wechselstation", name:"Ladestation f\u00fcr E-Bikes und Pedelecs", ort:"Rennerod", address:"Verbandsgemeindeverwaltung Rennerod"},
 {id:3, type:"E-Bike/Pedelec Akku-Wechselstation", name:"Ladestationen f\u00fcr e-Bikes und Pedelecs Rathaus", ort:"Haiger", address:"Vor dem Rathaus in Haiger"},

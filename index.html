@@ -917,7 +917,7 @@ function wanderCard(t,kat){
     +'<div class="item-title">'+t.t+'</div>'
     +'<div class="item-desc">'+t.km+' km &middot; '+t.d+'</div>'
     +'<div class="item-row"><span class="item-tag '+swClass+'">'+swLabel+'</span>'
-    +'<button class="ibtn ibtn-green route-info-btn" data-title="'+t.t.replace(/"/g,\'&quot;\')+'">Routeninfos</button>'
+    +'<button class="ibtn ibtn-green route-info-btn" data-title="'+t.t.replace(/"/g,'&quot;')+'">Routeninfos</button>'
     +'<button class="ibtn ibtn-gpx gpx-trigger" data-gpx="'+t.gpx+'" data-name="'+t.t.replace(/"/g,"&quot;")+'" >GPX</button>'
     +'</div></div></div>';
 }
@@ -964,7 +964,7 @@ function buildRadView(){
       +'<div class="item-desc">'+r.km+' km &middot; '+r.h+' h</div>'
       +'<div class="item-row">'
       +'<span class="item-tag '+swClass+'">'+swLabel+'</span>'
-      +'<button class="ibtn ibtn-green route-info-btn" data-title="'+r.t.replace(/"/g,\'&quot;\')+'">Routeninfos</button>'
+      +'<button class="ibtn ibtn-green route-info-btn" data-title="'+r.t.replace(/"/g,'&quot;')+'">Routeninfos</button>'
       +(r.gpx?'<button class="ibtn ibtn-gpx gpx-trigger" data-gpx="'+r.gpx+'" data-name="'+r.t.replace(/"/g,'&quot;')+'">GPX</button>':'')
       +'</div></div></div>';
   });

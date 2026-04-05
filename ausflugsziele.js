@@ -10,7 +10,7 @@
  * Burgen, Naturschutzgebiete, Denkmäler, etc.
  */
 
-const DATA_AUSFLUGSZIELE = [
+var DATA_AUSFLUGSZIELE = [
 {id:1,name:"Besucherbergwerk Grube Bindweide",topic:"Bergwerk/Schaubergwerk",town:"Steinebach/Sieg",lat:50.7324759367642,lng:7.82960414886475,desc:"Unter Tage: eine abenteuerliche Reise zu den Schätzen der Erde!",img:"https://resc.deskline.net/images/RPT/1/a3375d49-100d-4565-9f15-df4ce14b9b45/54/Gruppen_F%c3%bchrung_unter_Tage.jpg",themes:"Natur / Geologie,TV-/Kinoschauplätze,TOP Hachenburg,Familie,Sommer,Gruppen,Wochenende/Kurzaufenthalt,Kinder,Naturregion Sieg",slug:"besucherbergwerk-grube-bindweide"},
 {id:2,name:"Altstadt & Fachwerk Herborn",topic:"Fachwerk",town:"Herborn",lat:50.6829997174744,lng:8.30285310745239,desc:"Über 1000 Jahre Stadtgeschichte und faszinierende Fachwerkbauten",img:"https://resc.deskline.net/images/RPT/1/68c41215-acf1-42f0-8c6a-b8a56be7b61f/54/Unterschiedliche_Blickwinkel_auf_Fachwerkh%c3%a4user_1.jpg",themes:"Kultur",slug:"altstadt---fachwerk-herborn"},
 {id:3,name:"Der Waldbreitbacher Klosterberg",topic:"Kirchen/Stifte/Klöster",town:"Waldbreitbach",lat:50.5441998144536,lng:7.41668063271869,desc:"Zur Anlage gehören das St. Marienhaus, das Forum Antoniuskirche, das Rosa-Flesch Tagungszentrum, der Kräuter- und Bibelgarten, die Streuobstwiesen, die Klosterbergterrassen und der Klosterladen/Klosterbuchhandlung.",img:"https://resc.deskline.net/images/RPT/1/17dc6db3-286b-4730-9982-f6b3732c3828/54/von_oben.jpg",themes:"Wandern,Barrierefrei,Gesundheit,Familie,Sommer,Kulinarisch,Gruppen,Kultur,Winter,Feiertage",slug:"der-waldbreitbacher-klosterberg"},

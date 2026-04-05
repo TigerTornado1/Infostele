@@ -6,11 +6,11 @@
  * Stand: April 2026
  */
 
-const DATA_KULTUR_VERANSTALTUNGEN = [
+var DATA_KULTUR_VERANSTALTUNGEN = [
   {id:1, name:"Kunst und Kultur \u2013 Wir Westerwälder", url:"https://wir-westerwaelder.de/kunst-kultur/", type:"link"}
 ];
 
-const DATA_KULTUR_MUSEEN = [
+var DATA_KULTUR_MUSEEN = [
   {id:1, name:"Bergbaumuseum des Kreises Altenkirchen (Herdorf/Sassenroth)", url:"https://www.westerwald-sieg.de/d/bergbaumuseum-herdorf-1/"},
   {id:2, name:"Besucherbergwerk Grube Bindweide (Steinebach/Sieg)", url:"https://www.westerwald-sieg.de/d/besucherbergwerk-grube-bindweide-sn0rtg6q/"},
   {id:3, name:"Deutsches Raiffeisen-Museum (Hamm/Sieg)", url:"https://www.westerwald-sieg.de/d/deutsches-raiffeisen-museum/"},
@@ -27,7 +27,7 @@ const DATA_KULTUR_MUSEEN = [
   {id:14, name:"Landschaftsmuseum Westerwald (Hachenburg)", url:"https://www.westerwald-sieg.de/d/landschaftsmuseum-westerwald/"}
 ];
 
-const DATA_KULTUR_LITERATURTAGE = [
+var DATA_KULTUR_LITERATURTAGE = [
   {id:1, name:"Westerwälder Literaturtage (Website)", url:"https://wir-westerwaelder.de/westerwaelder-literaturtage/", type:"link"},
   {id:2, name:"Programm 2026 (PDF)", url:"https://wir-westerwaelder.de/fileadmin/WW_LIT/Download/wwLit-2026-Programmheft.pdf", type:"pdf"}
 ];

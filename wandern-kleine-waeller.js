@@ -8,7 +8,7 @@
  * 14 Kleine Wäller, exakt wie auf westerwald.info gelistet.
  */
 
-const DATA_WANDERN_KLEINE_WAELLER = [
+var DATA_WANDERN_KLEINE_WAELLER = [
 
 {id:1, _status:"complete", title:"Kleiner Wäller Häubchen-Tour", subtitle:"Breitscheid", type:"Spazierwanderweg",
  km:"6", difficulty:"mittel", sourceUrl:null,
