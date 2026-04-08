@@ -13,7 +13,9 @@ var DATA_UNTERKUENFTE = [
       "Hotel"
     ],
     "stars": "3 Sterne",
-    "classifications": [],
+    "classifications": [
+      "DEHOGA 3"
+    ],
     "rating": 4.5,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 294,
@@ -61,7 +63,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": 5.0,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 36,
@@ -157,7 +162,9 @@ var DATA_UNTERKUENFTE = [
       "Selbstversorgerhaus"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "Reisen für Alle"
+    ],
     "rating": 4.9,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 74,
@@ -181,7 +188,12 @@ var DATA_UNTERKUENFTE = [
       "Ferienhaus"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Nachhaltiges Reiseziel (TourCert)",
+      "TourCert",
+      "Fewo 4 DTV"
+    ],
     "rating": 4.9,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 86,
@@ -229,7 +241,14 @@ var DATA_UNTERKUENFTE = [
       "Wanderherberge"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "Ecocamping",
+      "F4Sterne DTV",
+      "Motorradfreundliche Betriebe",
+      "Zertifizierter Campingplatz 4 Sterne",
+      "Reisen für Alle",
+      "Qualitätsgastgeber Wanderbares Deutschland"
+    ],
     "rating": 5.0,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 188,
@@ -253,7 +272,11 @@ var DATA_UNTERKUENFTE = [
       "Campingplatz"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "Fewo 4 DTV",
+      "Reisen für Alle",
+      "ServiceQualität Deutschland Stufe I"
+    ],
     "rating": 4.9,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 47,
@@ -277,7 +300,10 @@ var DATA_UNTERKUENFTE = [
       "Campingplatz"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "Reisen für Alle",
+      "ServiceQualität Deutschland Stufe I"
+    ],
     "rating": 4.7,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 304,
@@ -373,7 +399,9 @@ var DATA_UNTERKUENFTE = [
       "Wohnmobil"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "Zertifizierter Campingplatz 3 Sterne"
+    ],
     "rating": 4.6,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 64,
@@ -494,7 +522,8 @@ var DATA_UNTERKUENFTE = [
     ],
     "stars": "",
     "classifications": [
-      "Qualitätsgastgeber Wanderbares Deutschland"
+      "Qualitätsgastgeber Wanderbares Deutschland",
+      "Reisen für Alle"
     ],
     "rating": 4.8,
     "ratingLabel": "Ausgezeichnet",
@@ -519,7 +548,9 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "Fewo 4 DTV"
+    ],
     "rating": 4.3,
     "ratingLabel": "Sehr gut",
     "reviewCount": 196,
@@ -687,7 +718,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienhaus"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": 5.0,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 11,
@@ -1047,7 +1081,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienhaus"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "FeHaus 4 DTV",
+      "F4Sterne DTV"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -1263,7 +1300,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienhaus"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -1383,7 +1423,9 @@ var DATA_UNTERKUENFTE = [
       "Ferienhaus"
     ],
     "stars": "3 Sterne",
-    "classifications": [],
+    "classifications": [
+      "FeHaus 3 DTV"
+    ],
     "rating": 4.9,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 3,
@@ -1551,7 +1593,9 @@ var DATA_UNTERKUENFTE = [
       "Ferienhaus"
     ],
     "stars": "3 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F3Sterne DTV"
+    ],
     "rating": 4.8,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 1,
@@ -1575,7 +1619,9 @@ var DATA_UNTERKUENFTE = [
       "Ferienhaus"
     ],
     "stars": "3 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F3Sterne DTV"
+    ],
     "rating": 5.0,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 1,
@@ -1695,7 +1741,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienhaus"
     ],
     "stars": "3 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F3Sterne DTV",
+      "Fewo 3 DTV"
+    ],
     "rating": 4.7,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 14,
@@ -1935,7 +1984,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": 4.9,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 10,
@@ -1959,7 +2011,9 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "TourCert"
+    ],
     "rating": 4.9,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 7,
@@ -2199,7 +2253,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -2559,7 +2616,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "F3Sterne DTV",
+      "Fewo 3 DTV"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -2583,7 +2643,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "F3Sterne DTV",
+      "Fewo 3 DTV"
+    ],
     "rating": 4.9,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 18,
@@ -2679,7 +2742,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "F3Sterne DTV",
+      "Fewo 3 DTV"
+    ],
     "rating": 4.7,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 3,
@@ -2703,7 +2769,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -2775,7 +2844,12 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "3 Sterne",
-    "classifications": [],
+    "classifications": [
+      "Nachhaltiges Reiseziel (TourCert)",
+      "TourCert",
+      "F3Sterne DTV",
+      "Fewo 3 DTV"
+    ],
     "rating": 5.0,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 13,
@@ -3015,7 +3089,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "3 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F3Sterne DTV",
+      "Fewo 3 DTV"
+    ],
     "rating": 4.5,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 48,
@@ -3039,7 +3116,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "3 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F3Sterne DTV",
+      "Fewo 3 DTV"
+    ],
     "rating": 5.0,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 4,
@@ -3063,7 +3143,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": 5.0,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 1,
@@ -3087,7 +3170,12 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "F3Sterne DTV",
+      "Fewo 3 DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": 4.9,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 2,
@@ -3111,7 +3199,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "3 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F3Sterne DTV",
+      "Fewo 3 DTV"
+    ],
     "rating": 4.6,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 1,
@@ -3159,7 +3250,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": 4.9,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 4,
@@ -3281,7 +3375,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": 4.8,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 13,
@@ -3305,7 +3402,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -3593,7 +3693,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": 4.6,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 1,
@@ -3833,7 +3936,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "F3Sterne DTV",
+      "Fewo 3 DTV"
+    ],
     "rating": 5.0,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 6,
@@ -3929,7 +4035,9 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "Partnergastgeber Mosel"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -4001,7 +4109,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": 5.0,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 1,
@@ -4121,7 +4232,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienhaus"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -4385,7 +4499,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "F3Sterne DTV",
+      "Fewo 3 DTV"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -4625,7 +4742,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "3 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F3Sterne DTV",
+      "Fewo 3 DTV"
+    ],
     "rating": 3.9,
     "ratingLabel": "Gut",
     "reviewCount": 2,
@@ -4649,7 +4769,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -4769,7 +4892,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -4793,7 +4919,9 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "Fewo 4 DTV"
+    ],
     "rating": 4.8,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 1,
@@ -4817,7 +4945,9 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "TourCert-Partner"
+    ],
     "rating": 5.0,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 10,
@@ -5177,7 +5307,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": 4.9,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 5,
@@ -5201,7 +5334,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -5465,7 +5601,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": 4.8,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 1,
@@ -5609,7 +5748,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "3 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F3Sterne DTV",
+      "P3Sterne DTV"
+    ],
     "rating": 4.8,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 59,
@@ -5825,7 +5967,11 @@ var DATA_UNTERKUENFTE = [
       "Ferienhaus"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV",
+      "Reisen für Alle"
+    ],
     "rating": 4.8,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 3,
@@ -5873,7 +6019,12 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "F3Sterne DTV",
+      "Fewo 3 DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -6041,7 +6192,10 @@ var DATA_UNTERKUENFTE = [
       "Bauernhof"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": 5.0,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 36,
@@ -6089,7 +6243,10 @@ var DATA_UNTERKUENFTE = [
       "Selbstversorgerhaus"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "Nachhaltiges Reiseziel (TourCert)",
+      "TourCert"
+    ],
     "rating": 4.9,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 17,
@@ -6113,7 +6270,9 @@ var DATA_UNTERKUENFTE = [
       "Ferienhaus"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "Fewo 3 DTV"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -6137,7 +6296,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienhaus"
     ],
     "stars": "3 Sterne",
-    "classifications": [],
+    "classifications": [
+      "Privat 3 DTV",
+      "P3Sterne DTV"
+    ],
     "rating": 4.9,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 2,
@@ -6329,7 +6491,9 @@ var DATA_UNTERKUENFTE = [
       "Hotel"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "Qualitätsgastgeber Wanderbares Deutschland"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -6462,7 +6626,10 @@ var DATA_UNTERKUENFTE = [
       "Ferienwohnung"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "F4Sterne DTV",
+      "Fewo 4 DTV"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -6776,6 +6943,7 @@ var DATA_UNTERKUENFTE = [
     "stars": "3 Sterne",
     "classifications": [
       "bett+bike",
+      "DEHOGA 3",
       "Qualitätsgastgeber Wanderbares Deutschland"
     ],
     "rating": 4.2,
@@ -6801,7 +6969,9 @@ var DATA_UNTERKUENFTE = [
       "Bauernhof"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "Qualitätsgastgeber Wanderbares Deutschland"
+    ],
     "rating": 4.7,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 17,
@@ -6901,7 +7071,11 @@ var DATA_UNTERKUENFTE = [
       "Hotel"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "Nachhaltiges Reiseziel (TourCert)",
+      "TourCert",
+      "Reisen für Alle"
+    ],
     "rating": 4.6,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 217,
@@ -6925,7 +7099,9 @@ var DATA_UNTERKUENFTE = [
       "Gästehaus"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "Reisen für Alle"
+    ],
     "rating": 5.0,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 10,
@@ -7148,6 +7324,7 @@ var DATA_UNTERKUENFTE = [
     ],
     "stars": "3 Sterne",
     "classifications": [
+      "DEHOGA 3",
       "Qualitätsgastgeber Wanderbares Deutschland"
     ],
     "rating": 4.3,
@@ -7212,7 +7389,9 @@ var DATA_UNTERKUENFTE = [
       "Hotel"
     ],
     "stars": "4 Sterne",
-    "classifications": [],
+    "classifications": [
+      "DEHOGA 4"
+    ],
     "rating": 4.5,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 427,
@@ -7356,7 +7535,10 @@ var DATA_UNTERKUENFTE = [
       "Hotel"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "DEHOGA 3",
+      "Reisen für Alle"
+    ],
     "rating": 4.6,
     "ratingLabel": "Ausgezeichnet",
     "reviewCount": 118,
@@ -7561,7 +7743,9 @@ var DATA_UNTERKUENFTE = [
       "Wanderherberge"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "Qualitätsgastgeber Wanderbares Deutschland"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -7586,7 +7770,8 @@ var DATA_UNTERKUENFTE = [
     ],
     "stars": "4 Sterne",
     "classifications": [
-      "Qualitätsgastgeber Wanderbares Deutschland"
+      "Qualitätsgastgeber Wanderbares Deutschland",
+      "DEHOGA 4"
     ],
     "rating": 4.6,
     "ratingLabel": "Ausgezeichnet",
@@ -7659,7 +7844,9 @@ var DATA_UNTERKUENFTE = [
       "Pension"
     ],
     "stars": "",
-    "classifications": [],
+    "classifications": [
+      "Privat 2 DTV"
+    ],
     "rating": null,
     "ratingLabel": "",
     "reviewCount": 0,
@@ -7732,7 +7919,8 @@ var DATA_UNTERKUENFTE = [
     ],
     "stars": "4 Sterne",
     "classifications": [
-      "bett+bike"
+      "bett+bike",
+      "DEHOGA 4"
     ],
     "rating": 4.4,
     "ratingLabel": "Sehr gut",
@@ -7758,7 +7946,10 @@ var DATA_UNTERKUENFTE = [
     ],
     "stars": "",
     "classifications": [
-      "bett+bike"
+      "Klostersteigpartner",
+      "bett+bike",
+      "TOUREN-FAHRER-PARTNER-HAUS",
+      "Qualitätsgastgeber Wanderbares Deutschland"
     ],
     "rating": 4.5,
     "ratingLabel": "Ausgezeichnet",
@@ -8077,7 +8268,8 @@ var DATA_UNTERKUENFTE = [
     "stars": "",
     "classifications": [
       "bett+bike",
-      "Qualitätsgastgeber Wanderbares Deutschland"
+      "Qualitätsgastgeber Wanderbares Deutschland",
+      "Reisen für Alle"
     ],
     "rating": 4.1,
     "ratingLabel": "Sehr gut",
@@ -8128,7 +8320,10 @@ var DATA_UNTERKUENFTE = [
     "stars": "4 Sterne",
     "classifications": [
       "Qualitätsgastgeber Wanderbares Deutschland",
-      "Westerwald-Steig"
+      "DEHOGA 4",
+      "Westerwald-Steig",
+      "Reisen für Alle",
+      "ServiceQualität Deutschland Stufe I"
     ],
     "rating": 4.4,
     "ratingLabel": "Sehr gut",

@@ -1190,10 +1190,11 @@ function filterItemsByDropdowns(area, ps){
       if(aktVal!=='alle'){
         var cardVal=card.getAttribute('data-'+grp)||'';
         if(containsFields[grp]){
-          // contains: ist aktVal in der komma-getrennten Liste?
-          if(cardVal.indexOf(aktVal)===-1) show=false;
+          // contains-Match: aktVal muss in komma-getrennter Liste enthalten sein
+          if(!cardVal || cardVal.indexOf(aktVal)===-1) show=false;
         } else {
-          if(cardVal && cardVal!==aktVal) show=false;
+          // Exakter Match: leere Felder werden ausgeblendet
+          if(cardVal!==aktVal) show=false;
         }
       }
     });
@@ -1493,7 +1494,6 @@ function buildUnterView(){
 
   fd.innerHTML=makeCdd('dd-utype',typeOpts,false)
     +makeCdd('dd-ureg',regionOpts,false)
-    +makeCdd('dd-ufeat',featOpts,false)
     +makeCdd('dd-ustar',starOpts,false)
     +makeCdd('dd-uclass',classOpts,false);
 
