@@ -22,7 +22,7 @@ var DATA_WANDERN_WAELLER_TOUREN = [
       "difficulty": "Mittel",
       "tags": "Stöffel-Park, TERTIÄRUM, Basalt-Meile, Erbacher Eisenbahnbrücke, GeoRoute",
       "sourceUrl": "https://www.westerwald.info/d/waeller-tour-und-georoute-tertiaer-industrie-erlebnis-stoeffel-route/",
-      "gpxUrl": null,
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=806023509&project=oar-rlp",
       "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/806023509/",
       "stats": {
         "ascent": "274 hm",
@@ -102,7 +102,7 @@ var DATA_WANDERN_WAELLER_TOUREN = [
       "difficulty": "Mittel",
       "tags": "Pfahlberg-Vulkan, Brexbachtal, Teufelsberg, Caaner Schweiz, GeoRoute",
       "sourceUrl": "https://www.westerwald.info/d/nauort-georoute-vom-teufelsberg-zur-caaner-schweiz/",
-      "gpxUrl": null,
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=57342321&project=oar-rlp",
       "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/57342321/",
       "stats": {
         "ascent": "376 hm",
@@ -177,7 +177,7 @@ var DATA_WANDERN_WAELLER_TOUREN = [
       "difficulty": "Mittel",
       "tags": "Bertenauer Kopf, Rippelmarken, Manrother See, Buntmetalle, GeoRoute",
       "sourceUrl": "https://www.westerwald.info/d/waeller-tour-basalt-und-buntmetalle-1/",
-      "gpxUrl": null,
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=800240020&project=oar-rlp",
       "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/800240020/",
       "stats": {
         "ascent": "245 hm",
@@ -246,7 +246,7 @@ var DATA_WANDERN_WAELLER_TOUREN = [
       "difficulty": "Schwer",
       "tags": "Bärenkopp, Wiedtal, Hochscheider Seifen, Luh-Kapellchen, Kloster St. Marienhaus",
       "sourceUrl": "https://www.westerwald.info/d/waeller-tour-baerenkopp/",
-      "gpxUrl": null,
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=12541605&project=oar-rlp",
       "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/12541605/",
       "stats": {
         "ascent": "346 hm",
@@ -328,7 +328,7 @@ var DATA_WANDERN_WAELLER_TOUREN = [
       "difficulty": "Mittel",
       "tags": "Klosterweg, St. Kastor-Kapelle, Mutter-Rosa-Gedenkstätte, Kloster St. Marienhaus, Premiumweg",
       "sourceUrl": "https://www.westerwald.info/d/waeller-tour-klosterweg/",
-      "gpxUrl": null,
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=1548162&project=oar-rlp",
       "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/1548162/",
       "stats": {
         "ascent": "497 hm",
@@ -442,7 +442,7 @@ var DATA_WANDERN_WAELLER_TOUREN = [
       "difficulty": "Schwer",
       "tags": "Iserbach, Hausenborn, Isenburg, Thalhauser Mühle, Veltens Weiher, Premiumweg",
       "sourceUrl": "https://www.westerwald.info/d/waeller-tour-iserbachschleife/",
-      "gpxUrl": null,
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=7176907&project=oar-rlp",
       "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/7176907/",
       "stats": {
         "ascent": "594 hm",
@@ -533,7 +533,7 @@ var DATA_WANDERN_WAELLER_TOUREN = [
       "difficulty": "Schwer",
       "tags": "Brexbachtal, Burg Grenzau, Kaiserstuhl, Teufelsberg, Brexbachtalbahn, Premiumweg",
       "sourceUrl": "https://www.westerwald.info/d/waeller-tour-brexbachschluchtweg-grenzau/",
-      "gpxUrl": null,
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=6080058&project=oar-rlp",
       "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/6080058/",
       "stats": {
         "ascent": "307 hm",
@@ -622,7 +622,7 @@ var DATA_WANDERN_WAELLER_TOUREN = [
       "difficulty": "Mittel",
       "tags": "Augst, Sporkenburg, Mühlberg, Kapelle Maria in der Augst, Premiumweg",
       "sourceUrl": "https://www.westerwald.info/d/waeller-tour-augst-neuhaeusel/",
-      "gpxUrl": null,
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=4055201&project=oar-rlp",
       "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/4055201/",
       "stats": {
         "ascent": "381 hm",
@@ -714,7 +714,7 @@ var DATA_WANDERN_WAELLER_TOUREN = [
       "difficulty": "Mittel",
       "tags": "Stelzenbachtal, Wolfskirchhof, Welschneudorf, Maria Hilf, Premiumweg",
       "sourceUrl": "https://www.westerwald.info/d/waeller-tour-elberthoehen-niederelbert/",
-      "gpxUrl": null,
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=4054774&project=oar-rlp",
       "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/4054774/",
       "stats": {
         "ascent": "285 hm",
@@ -791,7 +791,7 @@ var DATA_WANDERN_WAELLER_TOUREN = [
       "difficulty": "Mittel",
       "tags": "Buchfinkenland, Gelbachtal, Schmelzhütte, Altweibereiche, Wildpark",
       "sourceUrl": "https://www.westerwald.info/d/waeller-tour-buchfinkenland-gackenbach/",
-      "gpxUrl": null,
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=4055494&project=oar-rlp",
       "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/4055494/",
       "stats": {
         "ascent": "403 hm",
@@ -868,7 +868,7 @@ var DATA_WANDERN_WAELLER_TOUREN = [
       "difficulty": "Leicht",
       "tags": "Eisenbachtal, Studentenmühle, Bildches Eich, Holbach, Bornkasten, Premiumweg",
       "sourceUrl": "https://www.westerwald.info/d/waeller-tour-eisenbachtal-nomborn/",
-      "gpxUrl": null,
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=4055467&project=oar-rlp",
       "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/4055467/",
       "stats": {
         "ascent": "157 hm",
@@ -953,7 +953,7 @@ var DATA_WANDERN_WAELLER_TOUREN = [
       "difficulty": "Schwer",
       "tags": "Watzenhahn, Kranstein, GeoTop, Burgruine Weltersburg, Limburger Becken, GeoRoute",
       "sourceUrl": "https://www.westerwald.info/d/waeller-tour-watzenhahner-riesen-1/",
-      "gpxUrl": null,
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=800239956&project=oar-rlp",
       "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/800239956/",
       "stats": {
         "ascent": "327 hm",
@@ -1028,7 +1028,7 @@ var DATA_WANDERN_WAELLER_TOUREN = [
       "difficulty": "Mittel",
       "tags": "Andachtsweg, Hessenblick, Holzbachschlucht, Hof Dapprich, traumtour",
       "sourceUrl": "https://www.westerwald.info/d/waeller-tour-hohe-hahnscheid-irmtraut/",
-      "gpxUrl": null,
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=38532291&project=oar-rlp",
       "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/38532291/",
       "stats": {
         "ascent": "224 hm",
@@ -1108,7 +1108,7 @@ var DATA_WANDERN_WAELLER_TOUREN = [
       "difficulty": "Mittel",
       "tags": "Greifenstein-Schleife, Burg Greifenstein, GlockenWelt, Ulmbachtalsperre, Katzenstein",
       "sourceUrl": "https://www.westerwald.info/d/waeller-tour-greifenstein-schleife-etappe-1-herborn/",
-      "gpxUrl": null,
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=17644950&project=oar-rlp",
       "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/17644950/",
       "stats": {
         "ascent": "477 hm",
@@ -1192,7 +1192,7 @@ var DATA_WANDERN_WAELLER_TOUREN = [
       "difficulty": "Mittel",
       "tags": "Greifenstein-Schleife, Christköppelchen, Nenderother Wasserfall, Knoten, Adolf-Weiß-Denkmal, Krombachtalsperre",
       "sourceUrl": "https://www.westerwald.info/d/waeller-tour-greifenstein-schleife-etappe-2-beilstein/",
-      "gpxUrl": null,
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=17645560&project=oar-rlp",
       "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/17645560/",
       "stats": {
         "ascent": "400 hm",
@@ -1281,7 +1281,7 @@ var DATA_WANDERN_WAELLER_TOUREN = [
       "difficulty": "Mittel",
       "tags": "Greifenstein-Schleife, Burg Greifenstein, Ulmbachtalsperre, Nenderother Wasserfall, Krombachtalsperre, Fernwanderweg",
       "sourceUrl": "https://www.westerwald.info/d/waeller-tour-greifenstein-schleife-herborn/",
-      "gpxUrl": null,
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=1527357&project=oar-rlp",
       "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/1527357/",
       "stats": {
         "ascent": "824 hm",
@@ -1343,6 +1343,39 @@ var DATA_WANDERN_WAELLER_TOUREN = [
         "address": "Im Gutshof",
         "coordinates": null
       }
+    },
+
+  // ══════════════════════════════════════════════════════════════════════════════
+  // ════════════  17.  BACHGEFLÜSTER  —  Marienstatt (NEU 30.05.2026) ════════════
+  // ══════════════════════════════════════════════════════════════════════════════
+  {
+      "id": 17,
+      "_status": "stub",
+      "title": "Wäller Tour Bachgeflüster",
+      "subtitle": "Marienstatt",
+      "type": "Wäller Tour",
+      "km": null,
+      "difficulty": null,
+      "tags": "Marienstatt, neu, Eröffnung 30.05.2026",
+      "sourceUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/807064767/",
+      "gpxUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/download.tour.gpx?i=807064767&project=oar-rlp",
+      "tourenplanerUrl": "https://www.tourenplaner-rheinland-pfalz.de/de/tour/807064767/",
+      "stats": { "ascent": null, "descent": null, "duration": null, "highPoint": null, "lowPoint": null },
+      "description": {
+        "headline": "Neue Wäller Tour – Eröffnung am 30. Mai 2026",
+        "text": "Diese neue Wäller Tour wird am 30. Mai 2026 in Marienstatt offiziell eröffnet. Detaillierte Wegbeschreibung, Streckenprofil und weitere Informationen folgen nach der Eröffnung."
+      },
+      "directions": { "byCar": null },
+      "publicTransport": { "arrival": null, "returnTrip": null, "returnTripUrl": null, "stops": [], "links": [], "taxis": [], "sustainableTip": null, "sustainableTipUrls": [], "moreInfoUrl": null },
+      "parking": [],
+      "routeDescription": { "general": null, "accessTrails": [], "accessTrailMarking": null },
+      "safetyNotes": null,
+      "safetyAppUrl": null,
+      "equipment": null,
+      "tips": [],
+      "literature": [],
+      "start": { "name": "Marienstatt", "address": null, "coordinates": null },
+      "destination": { "name": "Marienstatt", "address": null, "coordinates": null }
     }
 
 ];
