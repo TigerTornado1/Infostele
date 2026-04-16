@@ -1563,7 +1563,14 @@ function buildUnterView(){
 function buildVeranView(){
   detailHdr('Veranstaltungen', activeKat&&KAT_MAP[activeKat]?KAT_MAP[activeKat].titel:'');
   var fd=document.getElementById('filter-dropdowns');if(!fd)return '';
-  var data=(typeof DATA_VERANSTALTUNGEN!=='undefined'?DATA_VERANSTALTUNGEN:[]);
+  var raw=(typeof DATA_VERANSTALTUNGEN!=='undefined'?DATA_VERANSTALTUNGEN:[]);
+
+  // Deduplizieren: gleicher Name + Datum + Ort = doppelt
+  var seen={}, data=[];
+  raw.forEach(function(v){
+    var key=(v.name||'')+'|'+(v.date||'')+'|'+(v.place||v.town||'')+'|'+(v.time||v.startzeit||'');
+    if(!seen[key]){ seen[key]=1; data.push(v); }
+  });
 
   // Wochen aus Daten extrahieren (gleiches Schema wie Naturerlebnisse)
   var wochenSet={};
@@ -1572,21 +1579,27 @@ function buildVeranView(){
   var wochenOpts=[{val:'alle',label:'Alle Wochen'}];
   wochenKeys.forEach(function(k){ wochenOpts.push({val:k,label:neWeekLabel(k)}); });
 
-  // Orte aus Daten
-  var tw={};data.forEach(function(v){if(v.town)tw[v.town]=1;});
-  var to=[{val:'alle',label:'Alle Orte'}];
-  Object.keys(tw).sort().forEach(function(t){to.push({val:t,label:t});});
+  // Landkreis aus Daten (mehrere mögliche Feldnamen unterstützen)
+  function getLK(v){ return v.landkreis||v.lk||v.kreis||''; }
+  var lkSet={};
+  data.forEach(function(v){ var lk=getLK(v); if(lk) lkSet[lk]=1; });
+  var lkOpts=[{val:'alle',label:'Alle Landkreise'}];
+  Object.keys(lkSet).sort().forEach(function(lk){
+    lkOpts.push({val:lk, label: (typeof NE_LK_LABELS!=='undefined'&&NE_LK_LABELS[lk])?NE_LK_LABELS[lk]:lk});
+  });
 
-  fd.innerHTML=makeCdd('dd-vwoche',wochenOpts,false)+makeCdd('dd-vort',to,false);
+  fd.innerHTML=makeCdd('dd-vwoche',wochenOpts,false)+makeCdd('dd-vlk',lkOpts,false);
 
   var sorted=data.slice().sort(function(a,b){return(a.date||'').localeCompare(b.date||'');});
   var html='<div class="sec-lbl">\ud83d\udcc5 '+sorted.length+' Veranstaltungen</div>';
   sorted.forEach(function(v,idx){
     var wKey=v.date?neWeekKey(v.date):'';
     var ds=v.date?neFormatDatum(v.date):'';
+    var zeit=v.startzeit||v.time||'';
+    if(zeit && ds) ds+=', '+zeit+(/uhr/i.test(zeit)?'':' Uhr');
     html+='<div class="rc item-card veran-card" '
       +'data-vwoche="'+wKey+'" '
-      +'data-vort="'+(v.town||'')+'" '
+      +'data-vlk="'+getLK(v)+'" '
       +'data-veran-idx="'+idx+'" '
       +'style="cursor:pointer">'
       +'<div class="rc-n item-title">\ud83d\udcc5 '+v.name+' \u203a</div>';
